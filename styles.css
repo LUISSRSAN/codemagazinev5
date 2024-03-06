@@ -1,0 +1,211 @@
+
+body{
+    color:#444;
+ 
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing :border-box;
+}
+
+.container{
+    width:900px;
+    margin:auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+li{
+   color:#1098ad;
+    font-size:26px;
+    font-family:sans-serif;
+    text-transform:uppercase;
+    font-style:italic;
+}
+
+h3 + p::first-line{
+
+
+}
+
+
+h2::before{
+
+    content:'TOP';
+    background-color:yellow;
+    color:#444;
+    font-size:16px;
+    font-weight:bold;
+    display:inline-block;
+    padding:5px 10px;
+    position: absolute;
+    top:-10px;
+    right:-25px;
+}
+h2{
+    font-size:40px;
+    font-family:sans-serif;
+}
+
+h3{
+    font-size:30px;
+    font-family:sans-serif;
+}
+
+h4{
+    font-size:20px;
+    font-family:sans-serif;
+    text-transform:uppercase;
+    text-align:center;
+}
+
+p{
+   font-size:22px;
+   font-family:sans-serif; 
+   line-height:2;
+
+}
+li{
+    font-family:sans-serif;
+}
+
+footer p {
+    font-size:16px;
+}
+
+article header p {
+    font-style:italic;
+}
+
+
+#author{
+    font-style:italic;
+    font-size:18px;
+}
+#copyright{
+    font-size:16px;
+}
+
+.related-author{
+    font-size:18px;
+    font-weight:bold;
+}
+
+ul{
+    list-style:none;
+}
+
+.related{
+    list-style:none;
+    margin-left:0;
+}
+
+li:first-child{
+    font-weight:bold;
+}
+li:last-child{
+font-style:italic;
+}
+li:nth-child(even){
+
+}
+article p:last-child{
+    color:red;
+}
+
+a:link{
+    color:#1098ad;
+    text-decoration:none;
+}
+
+a:visited{
+    color:#1098ad;
+}
+
+a:hover{
+ 
+    font-weight:bold;
+    text-decoration: none
+}
+
+a:active{
+    background-color: white;
+    font-style:italic;
+}
+a{
+    background-color:white;
+    
+    
+
+}
+#copyright{
+    color:blue;
+}
+
+.text {
+    color:yellow;
+}
+footer p {
+    color:green !important;
+}
+
+nav {
+    font-size:25px;
+}
+
+nav a:link{
+    background-color:orangered;
+    margin:20px;
+    padding:20px;
+    display:inline-block;
+    margin-right:30px;
+    margin-top:10px;
+
+}
+*/
+
+
+/* FLOATS */
+#author-img {
+float:left;
+margin-bottom:20px;
+}
+#author{
+padding-left:80px;
+padding-top:10px;
+float:left;
+margin-left:20px;
+}
+
+h1{
+    float:left;
+}
+h2{
+    float:right;
+}
+
+
+article {
+
+width :600px;
+float:left;
+}
+
+aside{
+background-color:#f7f7f7;
+border-top:5px solid #1098ad;
+border-bottom:5px solid #1098ad;
+width:300px;
+padding:50px 40px;
+float:right;
+}
+
+footer{
+
+clear:both;
+}
